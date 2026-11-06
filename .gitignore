@@ -1,0 +1,11 @@
+node_modules/
+.env
+test-results/
+playwright-report/
+blob-report/
+
+# Private – company / client information, never commit
+private/
+
+# Visual snapshot baselines are screenshots of the client's site – generated locally
+tests/**/*-snapshots/
